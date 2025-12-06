@@ -11,6 +11,10 @@ from app.config import settings
 
 # TODO Добавить сюда импорт созданных моделей
 # Пример:
+from app.models.users import TicketModel
+from app.models.users import FilmModel
+from app.models.users import ReviewModel
+from app.models.users import PurchasesModel
 from app.models.users import UserModel
 from app.models.roles import RoleModel
 
